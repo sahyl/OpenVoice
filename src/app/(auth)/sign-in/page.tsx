@@ -16,7 +16,7 @@ import { signIn } from "next-auth/react"
 
 
 
-const page = () => {
+const Signin = () => {
   
   //
   const [showPassword, setShowPassword] = useState(false)
@@ -142,5 +142,5 @@ const page = () => {
   )
 }
 
-export default page
+export default Signin
 

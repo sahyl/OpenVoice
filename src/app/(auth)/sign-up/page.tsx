@@ -3,7 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from 'zod'
 import Link from "next/link"
-import { useEffect, useState } from "react"
+import { useEffect, useState} from "react"
 import { useDebounceCallback } from 'usehooks-ts'
 
 import { useRouter } from "next/navigation"
@@ -18,7 +18,7 @@ import { useToast } from "@/components/ui/use-toast"
 
 
 
-const page = () => {
+const Signup = () => {
   const [username, setUsername] = useState('')
   const [usernameMessage, setUsernameMessage] = useState('')
   const [isCheckingUsername, setIsCheckingUsername] = useState(false)
@@ -205,5 +205,5 @@ const page = () => {
   )
 }
 
-export default page
+export default Signup
 
